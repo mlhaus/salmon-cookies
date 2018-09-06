@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+
+#container {
+    width: 90%;
+    background-color: white;
+}
+
+h1 {
+    float: left;
+}
+
+#search {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

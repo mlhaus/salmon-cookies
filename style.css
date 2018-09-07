@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 #container {
@@ -7,12 +8,21 @@ body {
     background-color: white;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Luckiest Guy', cursive;
+}
+
 h1 {
     float: left;
 }
 
 #search {
-    float: right;
+    float: left;
+    padding: 1.25em;
+}
+
+#search input {
+    padding: 0.5em;
 }
 
 .clearfix::after {

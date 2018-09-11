@@ -40,3 +40,20 @@ h1 {
 #navigation {
     background-color: rgb(255, 187, 0);
 }
+
+#navigation ul {
+  list-style: none;
+  padding: 0;
+}
+
+#navigation ul li {
+  float: left;
+  padding: 10px 20px;
+  border-right: 1px solid black;
+
+}
+
+#navigation ul li:hover {
+  background-color: white;
+  cursor: pointer;
+}

@@ -13,7 +13,7 @@ body {
     margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .arrow {
     font-family: 'Luckiest Guy', cursive;
 }
 
@@ -56,3 +56,35 @@ h1 {
     background-color: white;
     cursor: pointer;
 }
+
+#promotions {
+    background-color: rgb(199, 199, 199);
+}
+
+#promotions span {
+    float: left;
+    text-align: center;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+#promotions .arrow {
+    width: 5%;
+    background-color: white;
+    font-size: 2em;
+    padding: 0;
+}
+
+.promo {
+    width: 90%;
+}
+
+.promo {
+    width: 90%;
+}
+
+
+
+
+
+

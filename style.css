@@ -1,90 +1,99 @@
 * {
-   box-sizing: border-box; 
-}
-
-body {
-    background-color: black;
-    font-family: 'Alegreya Sans', sans-serif;
-}
-
-#container {
-    width: 90%;
-    background-color: white;
-    margin: 0 auto;
-}
-
-h1, h2, h3, h4, h5, h6, .arrow {
-    font-family: 'Luckiest Guy', cursive;
-}
-
-h1 {
-    float: left;
-    padding-left: 1em;
-}
-
-#search {
-    float: left;
-    padding: 1.25em;
-}
-
-#search input {
-    padding: 0.5em;
-}
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-#navigation {
-    background-color: rgb(255, 187, 0);
-}
-
-#navigation ul {
-    list-style: none;
-    padding: 0;
-}
-
-#navigation li {
-    float: left;
-    padding: 10px 20px;
-    border-right: 1px solid black;
-}
-
-#navigation li:hover {
-    background-color: white;
-    cursor: pointer;
-}
-
-#promotions {
-    background-color: rgb(199, 199, 199);
-}
-
-#promotions span {
-    float: left;
-    text-align: center;
-    padding: 0.5em;
-    font-weight: bold;
-}
-
-#promotions .arrow {
-    width: 5%;
-    background-color: white;
-    font-size: 2em;
-    padding: 0;
-}
-
-.promo {
-    width: 90%;
-}
-
-.promo {
-    width: 90%;
-}
-
-
-
-
-
-
+    box-sizing: border-box; 
+ }
+ 
+ body {
+     background-color: black;
+     font-family: 'Alegreya Sans', sans-serif;
+ }
+ 
+ #container {
+     width: 90%;
+     background-color: white;
+     margin: 0 auto;
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+     font-family: 'Luckiest Guy', cursive;
+     margin: 0;
+ }
+ 
+ h1 {
+     float: left;
+     padding-left: 1em;
+     padding-top: 0.7em;
+ }
+ 
+ #search {
+     float: left;
+     padding: 1.25em;
+ }
+ 
+ #search input {
+     padding: 0.5em;
+ }
+ 
+ .clearfix::after {
+     content: "";
+     clear: both;
+     display: table;
+ }
+ 
+ #navigation {
+     background-color: rgb(255, 187, 0);
+ }
+ 
+ #navigation ul {
+     list-style: none;
+     padding: 0;
+ }
+ 
+ #navigation li {
+     float: left;
+     padding: 10px 20px;
+     border-right: 1px solid black;
+ }
+ 
+ #navigation li:hover {
+     background-color: white;
+     cursor: pointer;
+ }
+ 
+ #promotions {
+     background-color: rgb(199, 199, 199);
+ }
+ 
+ #promotions span {
+     float: left;
+     text-align: center;
+     padding: 0.5em;
+     font-weight: bold;
+ }
+ 
+ #promotions .arrow {
+     width: 5%;
+     background-color: white;
+     font-size: 2em;
+     padding: 0;
+ }
+ 
+ .promo {
+     width: 90%;
+ }
+ 
+ main {
+     width: 100%;
+     min-height: 350px;
+ }
+ 
+ main > aside {
+     float: left;
+     width: 20%;
+     background-color: yellow;
+     height: 100%;
+ }
+ 
+ main > section {
+     width: 80%;
+ }
+ 

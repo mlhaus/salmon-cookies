@@ -1,16 +1,233 @@
 var products = [
-
     {
-        title: "Fight For Iowa Hawkeye Tee",
-        price: 18.50,
-        sizes: ["S", "M", "L", "XL", "XXL"],
-        description: "This Iowa Hawkeye Champion brand tee features \"Fight for Iowa\" written on the front",
-        colors: ["Black", "White", "Gold"],
-        materials: ["80% Cotton", "20% Polyester"],
-        brand: "Champion",
-        categories: ["men", "tee", "short-sleeve"],
-        product_id: "C1900"
+        title: "Pullover Hoodie",
+        price: "39.99",
+        sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL", "5XL"],
+        description: "Created with comfort in mind, this lighter weight hooded sweatshirt is perfect for any activity. Teams and groups love this hoodie for its affordable price and variety of colors.",
+        colors: ["Royal Blue", "Dark Grey", "Light Grey", "Pink"],
+        materials: ["50% Cotton", "50% Polyester"],
+        brand: "Gildan",
+        categories: ["Men", "Women", "Hoodie", "Sweatshirt"],
+        product_id: "G185"
     },
-    
-    
+    {
+        title: "Crewneck Pullover",
+        price: "24.95",
+        sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL", "5XL"],
+        description: "This super comfortable and lighter weight crewneck will become your favorite go-to sweatshirt. The cozy spandex cuffs and waistband make this pill-resistant sweatshirt a fan favorite.",
+        colors: ["Royal Blue", "Dark Grey", "Light Grey", "Pink"],
+        materials: ["50% Cotton", "50% Polyester"],
+        brand: "Gildan",
+        categories: ["Men", "Women", "Sweatshirt"],
+        product_id: "G180"
+    },
+    {
+        title: "Long Sleeve Tee",
+        price: "25.99",
+        sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL", "5XL"],
+        description: "This essential long sleeve tee is the kind of t-shirt you can't have enough of. Thankfully it comes in a rainbow of colors for you to show off your individual style. The heavy weight 6.1 ounce 100% pre-shrunk cotton will wash and wear for years to come.",
+        colors: ["Royal Blue", "Dark Grey", "Light Grey"],
+        materials: ["100% Cotton"],
+        brand: "Gildan",
+        categories: ["Men", "Women", "Tee"],
+        product_id: "G240"
+    },
+    {
+        title: "Raglan Jersey",
+        price: "24.95",
+        sizes: ["S", "M", "L", "XL", "2XL", "3XL"],
+        description: "The Sporty Baseball Tee is as comfortable and classic as they come. The soft, cotton/poly jersey shirt with contrasting sleeves is great to wear for a work out or for just hanging out. This colorblock jersey is a classic you'll want to wear again and again.",
+        colors: ["Navy", "Royal Blue"],
+        materials: ["50% Cotton", "50% Polyester"],
+        brand: "Augusta",
+        categories: ["Men", "Women", "Tee"],
+        product_id: "4420"
+    },
+    {
+        title: "Long Sleeve Polo",
+        price: "47.95",
+        sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
+        description: "It wasn't easy making EZCotton better, but we did. Still made of soft, smooth, durable 100% cotton pique, our new EZCotton Polo boasts an updated fit and a collar that resists curling. It also resists shrinking, wrinkling, pilling and fading with ease.",
+        colors: ["Navy", "Royal Blue", "Light Grey"],
+        materials: ["100% Cotton"],
+        brand: "Port Authority",
+        categories: ["Men", "Polo", "Long Sleeve"],
+        product_id: "K8000LS"
+    },
+    {
+        title: "Athletic Short",
+        price: "38.95",
+        sizes: ["S", "M", "L", "XL", "2XL", "3XL"],
+        description: "Stylish and sophisticated this athletic short will be perfect for any event. Featuring a Dry-Excel Micro-Interlock with a smooth polyester surface and high mechanical stretch for the perfect athletic cut. The superior moisture-wicking technology reduces sweat and keeps you dry. Also, a contrasting colorblock along the sides completes this performance short. 5 inch inseam.",
+        colors: ["Royal Blue"],
+        materials: ["100% Polyester"],
+        brand: "Holloway",
+        categories: ["Men", "Shorts"],
+        product_id: "221041"
+    },
+    {
+        title: "Short Sleeve Raglan Tee",
+        price: "25.95",
+        sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
+        description: "An authentic team look in soft, comfortable cotton.",
+        colors: ["Royal Blue", "Navy"],
+        materials: ["100% Cotton"],
+        brand: "Sport-Tek",
+        categories: ["Men", "Tee"],
+        product_id: "221041"
+    },
+    {
+        title: "Fleece Lined Jacket",
+        price: "68.95",
+        sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL", "5XL", "6XL"],
+        description: "This jacket is just what the team called for. The nylon shell repels the elements and the sweatshirt fleece lining in the hood and body provides warmth and comfort.",
+        colors: ["Royal Blue"],
+        materials: ["100% Nylon"],
+        brand: "Port Authority",
+        categories: ["Men", "Female", "Jacket"],
+        product_id: "JP56"
+    },
+    {
+        title: "Sweatpants With Pockets",
+        price: "32.95",
+        sizes: ["S", "M", "L", "XL", "2XL"],
+        description: "Warm up in these incredibly comfortable open-bottom sweatpants. Made from cotton/poly fleece, they feature an elastic waist with drawstring and perfect sideseam pockets. Great for teams, but perfect for just hanging out.",
+        colors: ["Royal Blue", "Light Grey"],
+        materials: ["50% Cotton", "50% Polyester"],
+        brand: "Gildan",
+        categories: ["Men", "Female", "Sweatpants"],
+        product_id: "G123"
+    },
+    {
+        title: "Ringspun Tank Top",
+        price: "25.95",
+        sizes: ["S", "M", "L", "XL", "2XL"],
+        description: "The simple style and comfortable fit of this tank top makes for a classic look. It'll be your go-to tank for the gym. the beach, or any time you need to feel cool.",
+        colors: ["Royal Blue", "Black"],
+        materials: ["100% Cotton"],
+        brand: "Anvil",
+        categories: ["Men", "Tee", "Sleeveless"],
+        product_id: "986"
+    },
+    {
+        title: "Sport Lace Hoody",
+        price: "50.95",
+        sizes: ["S", "M", "L", "XL", "2XL", "3XL"],
+        description: "An old time hockey favorite, this hoodie comes complete with a skate-laced placket. If you're a huge hockey fan, this is the hoodie for you! Features include spandex blend ribbed cuffs, waistband and side gusset panels, Thick flat white draw cord with grey ticking, Front pouch pocket and a sport shoulder panel.",
+        colors: ["Royal Blue", "Black", "Pink"],
+        materials: ["80% Cotton", "10% Polyester"],
+        brand: "J America",
+        categories: ["Men", "Sweatshirt", "Hoodie"],
+        product_id: "JA8830"
+    },
+    {
+        title: "Performance Polo",
+        price: "37.95",
+        sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
+        description: "Colorblocking on the sleeves and sides, along with an understated texture, give this snag-resistant, moisture-wicking polo plenty of sporty interest. PosiCharge technology ensures colorfastness of your colors.",
+        colors: ["Royal Blue", "Navy"],
+        materials: ["100% Polyester"],
+        brand: "Sport-Tek",
+        categories: ["Men", "Polo"],
+        product_id: "ST695"
+    },
+    {
+        title: "Moisture Wicking Polo",
+        price: "36.95",
+        sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
+        description: "This versatile sport polo shirt is a great choice if you're on the links, running errands, or on the court. Color pops at the shoulders and sides-combined with a Vintage Heather body-make this moisture-wicking polo a true contender for easygoing style. It features sporty raglan sleeves for greater mobility and tagless labeling for extra comfort.",
+        colors: ["Light Grey"],
+        materials: ["100% Polyester"],
+        brand: "Sport-Tek",
+        categories: ["Men", "Polo"],
+        product_id: "ST665"
+    },
+    {
+        title: "Women's Moisture Wicking Polo",
+        price: "36.95",
+        sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
+        description: "This versatile women's sport polo shirt is a great choice if you're on the links, running errands, or on the court. Color pops at the shoulders and sides-combined with a Vintage Heather body-make this moisture-wicking polo a true contender for easygoing style. It features a gently contoured silhouette, sporty raglan sleeves for greater mobility, and tagless labeling for extra comfort.",
+        colors: ["Light Grey"],
+        materials: ["100% Polyester"],
+        brand: "Sport-Tek",
+        categories: ["Women", "Polo"],
+        product_id: "LST665"
+    },
+    {
+        title: "Women's Triblend Dolman Sleeve",
+        price: "25.95",
+        sizes: ["S", "M", "L", "XL", "2XL", "3XL"],
+        description: "The most luxurious tee on the market, the updated Next Level Ladies' Triblend with Dolman Sleeves is so soft it will instantly become your favorite tee. Please note: Because of the nature of this tri-blend fabric, the print may appear more faded and distressed than what is shown on your screen.",
+        colors: ["Navy", "Dark Grey", "Royal Blue"],
+        materials: ["50% Polyester", "25% Cotton", "25% Rayon"],
+        brand: "Next Level",
+        categories: ["Women", "Tee"],
+        product_id: "NL6760"
+    },
+    {
+        title: "Women's Pullover Hoodie",
+        price: "46.95",
+        sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
+        description: "Our tried-and-true favorite just got better. With an updated fit, this pullover boasts 2x2 rib knit details, a dyed to match drawcord, set in sleeves, and a front pouch pocket. Extra soft and comfortable, its also colorfast and built for minimal shrinkage. Please refer to size chart for accurate sizing.",
+        colors: ["Pink", "Light Grey", "Black"],
+        materials: ["65% Cotton", "35% Polyester"],
+        brand: "Sport-Tek",
+        categories: ["Women", "Sweatshirt", "Hoodie"],
+        product_id: "LST254"
+    },
+    {
+        title: "Women's Moisture Wicking Tee",
+        price: "25.95",
+        sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
+        description: "Bring on the competition. This ultra breathable ladies scoop neck tee takes on any activity with sweat-wicking performance and heathered good looks. This essential tee has everything you want in a t-shirt. 100% polyester jersey, sturdy construction, and gently contoured silhouette for the perfect fit.",
+        colors: ["Pink", "Dark Grey", "Royal Blue"],
+        materials: ["100% Polyester"],
+        brand: "Sport-Tek",
+        categories: ["Women", "Tee"],
+        product_id: "LST360"
+    },
+    {
+        title: "Billfold Wallet",
+        price: "35.95",
+        sizes: [],
+        description: "This wallet is designed to be thinner, lighter and stronger than any other billfold wallet. It is tear proof, water resistant, lightweight and will stand the test of time and age. Customize it with your favorite graphic or photo for a one of a kind gift.",
+        colors: ["Royal Blue", "Black", "Brown"],
+        materials: ["Leather"],
+        brand: "",
+        categories: ["Accessories"],
+        product_id: "WA100"
+    },
+    {
+        title: "Hardboard Coaster",
+        price: "10.95",
+        sizes: [],
+        description: "A great complement to any side table, our custom coasters display your photos or designs with vivid, digitally printed colors. Made with high-gloss plastic and non-skid cork backing, you can upgrade your home dcor while showing your individuality.",
+        colors: ["Royal Blue"],
+        materials: ["Cork"],
+        brand: "",
+        categories: ["Accessories"],
+        product_id: "UN5677"
+    },
+    {
+        title: "Striped Beanie With Pom",
+        price: "15.95",
+        sizes: ["One size tis most"],
+        description: "Perfect for sporting events this warm and soft knit beanie has the added bonus of a pom pom. You'll look great and be cozy warm while cheering in your team's colors.",
+        colors: ["Royal Blue"],
+        materials: ["100% Acrylic Rib Knit"],
+        brand: "",
+        categories: ["Accessories", "Hat"],
+        product_id: "223835"
+    },
+    {
+        title: "Twill Cap",
+        price: "20.95",
+        sizes: ["One size tis most"],
+        description: "Get back to basics in this 5-panel construction twill cap. With a Velcro closure.",
+        colors: ["Royal Blue"],
+        materials: ["100% Cotton Twill"],
+        brand: "",
+        categories: ["Accessories", "Hat"],
+        product_id: "CP86"
+    },
 ];

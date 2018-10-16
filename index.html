@@ -8,6 +8,16 @@
     <link href="normalize.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Luckiest+Guy" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+
+    <script id="product-template" type="text/x-handlebars-template">
+        <li class="product" data-brand="{{brand}}" data-id="{{product_id}}" data-categories="{{categories}}">
+            <img src="images/{{image}}" alt="{{title}}">
+            <h4>{{title}}</h4>
+            <p>{{price}}</p>
+            <a href="#" class="button">Learn more</a>
+        </li>
+    </script>
+
 </head>
 <body>
     <div id="container">
@@ -15,8 +25,8 @@
             <div id="logo-search" class="clearfix">
                 <h1>Hawkeye Superstore</h1>
                 <form id="search">
-                    <input type="search" placeholder="Search">
-                    <input type="button" value="Go">
+                    <input type="search" id="lookup" placeholder="Search">
+                    <input type="submit" value="Go">
                 </form>
             </div>
             <div id="navigation" class="clearfix">
@@ -38,13 +48,48 @@
         <main class="clearfix">
             <aside>
                 <h3>Categories</h3>
+                <select id="category-filter">
+                    <option value="">--Filter by category--</option>
+                </select>
+                <hr>
+                <h3>Brands</h3>
+                <select id="brand-filter">
+                    <option value="">--Filter by brand--</option>
+                </select>
+                <hr>
+                <h3>Materials</h3>
+                <select id="material-filter">
+                    <option>--Filter by material--</option>
+                </select>
+                <hr>
+                <h3>Colors</h3>
+                <select id="color-filter">
+                    <option>--Filter by color--</option>
+                </select>
+                <hr>
+                <h3>Sizes</h3>
+                <select id="size-filter">
+                    <option>--Filter by size--</option>
+                </select>
+                <hr>
             </aside>
             <section>
                 <h3>Top Products</h3>
+                <ul id="product-listings">
+                    
+                </ul>
             </section>
         </main>
+        <footer>
+            <p>Copyright &copy; 2018 - Hawkeye Superstore</p>
+        </footer>
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/handlebars-v4.0.12.js"></script>
     <script src="js/products.js"></script> 
-    <script src="js/products-constructor.js"></script>    
+    <script src="js/products-constructor.js"></script>
+    <script src="js/brand-filter.js"></script>
+    <script src="js/category-filter.js"></script>
+    <script src="js/search.js"></script>
 </body>
 </html>

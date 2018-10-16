@@ -84,16 +84,66 @@
  main {
      width: 100%;
      min-height: 350px;
+     background-color: black;
  }
  
  main > aside {
      float: left;
      width: 20%;
-     background-color: yellow;
-     height: 100%;
+     background-color: rgb(255, 187, 0);
+     padding: 20px;
  }
  
  main > section {
+     float: left;
      width: 80%;
+     padding: 20px;
+     background-color: black;
+     color: white;
+ }
+
+ aside select {
+     width: 100%;
  }
  
+ aside hr {
+     border: none;
+     border-bottom: 1px solid black;
+     padding-bottom: 5px;
+ }
+
+ #product-listings {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+ }
+
+ .product {
+     width: 30%;
+     background-color: white;
+     color: black;
+     float: left;
+     margin: 0 20px 20px 0;
+ }
+
+ .product img {
+     width: 90%;
+     margin: 10px auto;
+     display: block;
+ }
+
+ .product h4, .product p, .product a {
+     margin: 0;
+     text-align: center;
+     display: block;
+ }
+ 
+ footer {
+     background-color: white;
+     text-align: center;
+ }
+
+ footer p {
+    padding: 10px;
+    margin: 0;
+ }

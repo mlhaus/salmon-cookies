@@ -1,5 +1,6 @@
-var products = [
+var products = [ 
     {
+        image: "pullover-hoodie-dark-grey.png",
         title: "Pullover Hoodie",
         price: "39.99",
         sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL", "5XL"],
@@ -11,6 +12,7 @@ var products = [
         product_id: "G185"
     },
     {
+        image: "crewneck-pullover-royal-blue.png",
         title: "Crewneck Pullover",
         price: "24.95",
         sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL", "5XL"],
@@ -22,6 +24,7 @@ var products = [
         product_id: "G180"
     },
     {
+        image: "long-sleeve-tee-light-grey.png",
         title: "Long Sleeve Tee",
         price: "25.99",
         sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL", "5XL"],
@@ -33,6 +36,7 @@ var products = [
         product_id: "G240"
     },
     {
+        image: "short-sleeve-raglan-tee-navy.png", 
         title: "Raglan Jersey",
         price: "24.95",
         sizes: ["S", "M", "L", "XL", "2XL", "3XL"],
@@ -44,6 +48,7 @@ var products = [
         product_id: "4420"
     },
     {
+        image: "long-sleeve-polo-royal-blue.png", 
         title: "Long Sleeve Polo",
         price: "47.95",
         sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
@@ -55,6 +60,7 @@ var products = [
         product_id: "K8000LS"
     },
     {
+        image: "athletic-short-royal-blue.png", 
         title: "Athletic Short",
         price: "38.95",
         sizes: ["S", "M", "L", "XL", "2XL", "3XL"],
@@ -66,6 +72,7 @@ var products = [
         product_id: "221041"
     },
     {
+        image: "short-sleeve-raglan-tee-royal-blue.png", 
         title: "Short Sleeve Raglan Tee",
         price: "25.95",
         sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
@@ -77,6 +84,7 @@ var products = [
         product_id: "221041"
     },
     {
+        image: "fleece-lined-jacket-royal-blue.png",
         title: "Fleece Lined Jacket",
         price: "68.95",
         sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL", "5XL", "6XL"],
@@ -84,10 +92,11 @@ var products = [
         colors: ["Royal Blue"],
         materials: ["100% Nylon"],
         brand: "Port Authority",
-        categories: ["Men", "Female", "Jacket"],
+        categories: ["Men", "Women", "Jacket"],
         product_id: "JP56"
     },
     {
+        image: "sweatpants-with-pockets-light-grey.png", 
         title: "Sweatpants With Pockets",
         price: "32.95",
         sizes: ["S", "M", "L", "XL", "2XL"],
@@ -95,10 +104,11 @@ var products = [
         colors: ["Royal Blue", "Light Grey"],
         materials: ["50% Cotton", "50% Polyester"],
         brand: "Gildan",
-        categories: ["Men", "Female", "Sweatpants"],
+        categories: ["Men", "Women", "Sweatpants"],
         product_id: "G123"
     },
     {
+        image: "ringspun-tank-top-black.png", 
         title: "Ringspun Tank Top",
         price: "25.95",
         sizes: ["S", "M", "L", "XL", "2XL"],
@@ -110,6 +120,7 @@ var products = [
         product_id: "986"
     },
     {
+        image: "sport-lace-hoody-pink.png", 
         title: "Sport Lace Hoody",
         price: "50.95",
         sizes: ["S", "M", "L", "XL", "2XL", "3XL"],
@@ -121,6 +132,7 @@ var products = [
         product_id: "JA8830"
     },
     {
+        image: "performance-polo-royal-blue.png", 
         title: "Performance Polo",
         price: "37.95",
         sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
@@ -132,6 +144,7 @@ var products = [
         product_id: "ST695"
     },
     {
+        image: "moisture-wicking-polo-light-grey.png",
         title: "Moisture Wicking Polo",
         price: "36.95",
         sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
@@ -143,6 +156,7 @@ var products = [
         product_id: "ST665"
     },
     {
+        image: "womens-moisture-wicking-polo-light-grey.png", 
         title: "Women's Moisture Wicking Polo",
         price: "36.95",
         sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
@@ -154,6 +168,7 @@ var products = [
         product_id: "LST665"
     },
     {
+        image: "womens-triblend-dolman-sleeve-navy.png", 
         title: "Women's Triblend Dolman Sleeve",
         price: "25.95",
         sizes: ["S", "M", "L", "XL", "2XL", "3XL"],
@@ -165,6 +180,7 @@ var products = [
         product_id: "NL6760"
     },
     {
+        image: "womens-pullover-hoodie-light-grey.png",
         title: "Women's Pullover Hoodie",
         price: "46.95",
         sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
@@ -176,6 +192,7 @@ var products = [
         product_id: "LST254"
     },
     {
+        image: "womens-moisture-wicking-tee-dark-grey.png",
         title: "Women's Moisture Wicking Tee",
         price: "25.95",
         sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],
@@ -187,6 +204,7 @@ var products = [
         product_id: "LST360"
     },
     {
+        image: "billfold-wallet-brown.png",
         title: "Billfold Wallet",
         price: "35.95",
         sizes: [],
@@ -198,6 +216,7 @@ var products = [
         product_id: "WA100"
     },
     {
+        image: "hardboard-coaster-royal-blue.png",
         title: "Hardboard Coaster",
         price: "10.95",
         sizes: [],
@@ -209,6 +228,7 @@ var products = [
         product_id: "UN5677"
     },
     {
+        image: "striped-beanie-with-pom-royal-blue.png",
         title: "Striped Beanie With Pom",
         price: "15.95",
         sizes: ["One size tis most"],
@@ -220,6 +240,7 @@ var products = [
         product_id: "223835"
     },
     {
+        image: "twill-cap-royal-blue.png",
         title: "Twill Cap",
         price: "20.95",
         sizes: ["One size tis most"],
